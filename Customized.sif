@@ -1,0 +1,100 @@
+SARM1	down-regulates	TICAM1
+TICAM2	up-regulates activity	TICAM1
+TICAM1	up-regulates activity	TBK1
+IRAK1	up-regulates activity	TRAF6
+MYD88	up-regulates activity	IRAK1
+TIRAP	up-regulates activity	MYD88
+MAP2K6	up-regulates activity	MAPK14
+MAP2K6	up-regulates activity	MAP2K6
+MAP2K3	up-regulates activity	MAPK14
+MAP2K7	up-regulates	MAPK8
+MAPK8	up-regulates	IRF3
+TBK1	up-regulates activity	IKBKE
+TBK1	down-regulates quantity by destabilization	NFKBIA
+TBK1	up-regulates activity	IRF3
+TRAF6	up-regulates activity	TRAF6
+TRAF6	up-regulates activity	MAP3K8
+TRAF6	up-regulates activity	MAP3K7
+TRAF6	up-regulates activity	TAB2
+TRAF6	up-regulates activity	TAB3
+MAP3K1	up-regulates	MAP2K6
+MAP3K1	up-regulates	MAP2K7
+MAP3K1	up-regulates activity	MEK1/2
+MAP3K8	up-regulates	MEK1/2
+IRF3	up-regulates	Immune_response
+IRF3	up-regulates	Interferon_Production
+ERK1/2	down-regulates	GAB1
+ERK1/2	up-regulates activity	RPS6K
+MEK1/2	up-regulates	ERK1/2
+PAMPs	up-regulates	TLRs
+TLRs	up-regulates activity	TICAM2
+TLRs	up-regulates activity	TIRAP
+TLRs	up-regulates activity	TICAM1
+TLRs	up-regulates activity	TLRs
+DAMPS	up-regulates activity	TLRs
+MAP3K7	up-regulates activity	IKK-complex
+MAP3K7	up-regulates	IKK-complex
+MAP3K7	down-regulates quantity by destabilization	NFKBIA
+MAP3K7	up-regulates activity	MAP2K6
+MAP3K7	up-regulates activity	MAP2K3
+MAP3K7	up-regulates activity	NfKb-p65/p50
+MAP3K7	up-regulates activity	IKBKG
+NFKBIA	down-regulates activity	NfKb-p65/p50
+IKBKE	down-regulates quantity by destabilization	NFKBIA
+IKBKE	up-regulates activity	IRF3
+IKBKE	up-regulates activity	NfKb-p65/p50
+NfKb-p65/p50	up-regulates	Immune_response
+NfKb-p65/p50	up-regulates	Interferon_Production
+NfKb-p65/p50	up-regulates	Proliferation
+NfKb-p65/p50	up-regulates	Inflammation
+IKK-complex	down-regulates	NFKBIA
+IKK-complex	down-regulates quantity by destabilization	NFKBIA
+IKK-complex	up-regulates	NfKb-p65/p50
+GSK3B	down-regulates activity	GYS1
+EIF4EBP1	down-regulates activity	EIF4E
+MKNK1	up-regulates	EIF4E
+GRB2	up-regulates activity	SOS1
+EGFR	up-regulates	GAB1
+EGFR	up-regulates activity	GRB2
+EGFR	unknown	GRB2
+EGF	up-regulates	EGFR
+EGF	up-regulates activity	EGFR
+HRAS	up-regulates	BRAF
+HRAS	up-regulates activity	BRAF
+SOS1	up-regulates activity	HRAS
+BRAF	up-regulates activity	MEK1/2
+BRAF	up-regulates	MEK1/2
+mTORC2	up-regulates activity	AKT
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	up-regulates activity	PDPK1
+1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate	up-regulates activity	AKT
+PDPK1	up-regulates activity	AKT
+PI3K	up-regulates quantity	1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+GAB1	up-regulates	PI3K
+RPS6K	up-regulates	mTORC1
+mTORC1	down-regulates activity	EIF4EBP1
+AKT	down-regulates activity	GSK3B
+AKT	down-regulates	FOXO
+AKT	down-regulates activity	FOXO
+AKT	up-regulates activity	mTORC1
+TAX1BP1	up-regulates activity	TNFAIP3
+TNF	up-regulates activity	TNFRSF1A
+UBE2N	up-regulates activity	UBE2V1
+ITCH	up-regulates activity	TNFAIP3
+RNF11	up-regulates activity	ITCH
+TNFRSF1A	up-regulates activity	TRADD
+FASLG	up-regulates activity	FAS
+CYLD	down-regulates activity	TRAF2
+CYLD	down-regulates	TRAF6
+UBE2V1	up-regulates activity	TRAF6
+TNFAIP3	down-regulates activity	TRAF6
+RIPK1	up-regulates activity	TRAF6
+TRAF2	up-regulates activity	RIPK1
+IKBKG	form complex	IKK-complex
+TAB3	up-regulates activity	MAP3K7
+TAB2	up-regulates activity	MAP3K7
+FAS	up-regulates activity	FADD
+FADD	up-regulates activity	RIPK1
+TRADD	up-regulates activity	TRAF2
+TRADD	up-regulates activity	RIPK1
+TRADD	up-regulates activity	FADD
+SCF-betaTRCP	up-regulates activity	NfKb-p65/p50
